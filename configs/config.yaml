@@ -1,0 +1,16 @@
+kafka:
+  bootstrap_servers: "localhost:9092"
+  topic: "currency_stream"
+  group_id: "streaming_group"
+
+postgres:
+  host: "localhost"
+  port: 5432
+  dbname: "streaming_db"
+  user: "user"
+  password: "password"
+
+retry:
+  max_attempts: 3
+  wait_exponential_multiplier: 1
+  wait_exponential_max: 10
