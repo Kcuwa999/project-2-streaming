@@ -1,14 +1,14 @@
 kafka:
-  bootstrap_servers: "localhost:9092"
-  topic: "currency_stream"
-  group_id: "streaming_group"
+  bootstrap_servers: "ВПИШИТЕ_ХОСТ:ВПИШИТЕ_ПОРТ"
+  topic: "ВПИШИТЕ_ТОПИК"
+  group_id: "ВПИШИТЕ_ГРУППУ"
 
 postgres:
-  host: "localhost"
-  port: 5432
-  dbname: "streaming_db"
-  user: "user"
-  password: "password"
+  host: "ВПИШИТЕ_ХОСТ"
+  port: "ВПИШИТЕ_ПОРТ"
+  dbname: "ВПИШИТЕ_БАЗА"
+  user: "ВПИШИТЕ_ПОЛЬЗОВАТЕЛЬ"
+  password: "ВПИШИТЕ_ПАРОЛЬ"
 
 retry:
   max_attempts: 3
